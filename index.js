@@ -1,8 +1,5 @@
 function requestify(config, data) {
-    if (typeof config === 'string') {
-        const url = require('url');
-        config = url.parse(config);
-    }
+    if (typeof config === 'string') config = require('url').parse(config);
     return new Promise((resolve, reject) => {
         const protocol = config.protocol === 'https:' ? require('https') : require('http');
         const req = protocol.request(config, (res) => {
