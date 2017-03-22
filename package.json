@@ -1,0 +1,25 @@
+{
+  "name": "requestify",
+  "version": "0.0.1",
+  "description": "promise based node http request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brotholopithicus/requestify.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "request",
+    "promise"
+  ],
+  "author": "James Jarvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brotholopithicus/requestify/issues"
+  },
+  "homepage": "https://github.com/brotholopithicus/requestify#readme"
+}
